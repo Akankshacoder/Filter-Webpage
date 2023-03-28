@@ -1,0 +1,24 @@
+body{
+    background-image:url("background.jpg") ;
+    background-size: cover; 
+}
+
+canvas{
+
+    animation-name: create_anime;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    background-color: black;
+    border: 4px black dotted;
+
+}
+@keyframes create_anime{
+    from{
+        box-shadow: 5px 10px 50px  royalblue;
+        
+    }
+    to{
+        box-shadow: 5px 10px 50px  peachpuff;
+
+    }
+}
